@@ -217,6 +217,7 @@ def user_stats(df):
 
 
 def request_data(df):
+    
     # ask user to show some data upon request
     view_data = input("Would you like to view 5 rows of individual trip data? Enter yes or no?\n").lower()
     start_loc = 0
